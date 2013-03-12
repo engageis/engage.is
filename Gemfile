@@ -12,7 +12,7 @@ gem 'thin'
 # Improvements
 gem 'jbuilder'
 gem 'inherited_resources'
-#gem 'simple_form'
+gem 'simple_form'
 
 # I18n
 gem 'rails-i18n'
