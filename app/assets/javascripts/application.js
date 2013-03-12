@@ -16,5 +16,7 @@
 
 //= require ./lib/underscore.js
 //= require ./lib/backbone.js
+//= require engage/engage.js
+//= require init.js
 //= require_tree ./lib
 
