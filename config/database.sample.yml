@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: engage_development
+  pool: 5
+  #username: postgres
+  #password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: engage_test
+  pool: 5
+  #username: postgres
+  #password:
+  min_messages: WARNING
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: engage_production
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
