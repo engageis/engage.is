@@ -37,8 +37,6 @@ group :assets do
   gem 'compass-rails'
   gem 'uglifier'
 	gem 'turbolinks'
-  #gem 'bootstrap-sass'
-  #gem 'zurb-foundation'
   #gem 'angular-rails'
 end
 
