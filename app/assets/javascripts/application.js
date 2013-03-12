@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 
+//= require ./lib/backbone.js
 //= require_tree ./lib
 
