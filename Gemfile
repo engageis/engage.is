@@ -37,7 +37,6 @@ group :assets do
   gem 'compass-rails'
   gem 'uglifier'
 	gem 'turbolinks'
-  #gem 'angular-rails'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
