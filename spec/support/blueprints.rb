@@ -1,9 +1,10 @@
 require 'machinist/active_record'
 
-# Add your blueprints here.
-#
-# e.g.
-#   Post.blueprint do
-#     title { "Post #{sn}" }
-#     body  { "Lorem ipsum..." }
-#   end
+images_path = Rails.root + 'spec/support/images'
+
+Member.blueprint do
+  name { "Lorem" }
+  specialities { "Lorem" }
+  bio { "Lorem ipson" }
+  avatar { File.open(File.join(images_path, "engage.png")) }
+end
