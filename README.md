@@ -15,11 +15,9 @@ Then just checkout the code, configure dependencies and run the tests:
 
  `git clone git://github.com/engageis/engage.is.git`
 
-2. Enter the repo directory and accept the [RVM](https://rvm.io/):
-
+2. Enter the repo directory to create the gemset:
+ 
  `cd engage.is`
-
- `yes` if solicited
 
 3. Install [Bundler](http://gembundler.com/) into our [RVM](https://rvm.io/):
 
@@ -37,11 +35,11 @@ Then just checkout the code, configure dependencies and run the tests:
 
   `bundle exec rake db:create`
  
-7. Create the lables
+7. Create the tables
 
   `bundle exec rake db:migrate`
 
-8. Start your server
+8. Start the server
 
   `bundle exec rails s`
 
