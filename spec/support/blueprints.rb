@@ -8,3 +8,10 @@ Member.blueprint do
   bio { "Lorem ipson" }
   avatar { File.open(File.join(images_path, "engage.png")) }
 end
+
+Project.blueprint do
+  name { "Engage site" }
+  description { "New Engage site" }
+  thumbnail { File.open(File.join(images_path, "engage.png")) }
+  url { "http://engage.is" }
+end
