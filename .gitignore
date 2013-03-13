@@ -14,4 +14,4 @@ capybara-*.html
 **.orig
 config/database.yml
 db/schema.rb
-
+public/uploads_*
