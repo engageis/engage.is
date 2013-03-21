@@ -12,6 +12,7 @@ gem 'thin'
 # Improvements
 gem 'inherited_resources'
 gem 'simple_form'
+gem 'high_voltage'
 
 # Authentication
 #gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
